@@ -1,4 +1,4 @@
-Data Science Capstone Project Presentation
+Data Science Capstone Project README.md
 
 The requirement of the Data Science Capstone Project is to develop a Shiny application to predict the next word of multiple words input by the user.
 The prediction model is based on the Stupid Backoff Natural Language Processing (NLP) algorithm. This program uses 3 documents (corpus) (blogs, news, twitter) provided by [Swiftkey] (https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip) to build n grams tables (1 to 5). Next calculate the frequency and respective probabilities which are used for prediction.
