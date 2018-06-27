@@ -28,10 +28,12 @@ URL of the [Shiny Application](https://aklk1998.shinyapps.io/Data_Science_Capsto
 1.  It will take 30 to 60 seconds to initialize the application.
 2.  Due to data size, respond time requires more work.
 
-URL of the [Source Codes](https://github.com/aklk1998/Data_Science_Capstone_Project_Codes/tree/master/data_science_capstone_project_codes)
+File Descriptions:
 
 1.  gramsDB: The SQL database containing n grams (1 to 5) tables.
 2.  Preprocess Codes.R: Codes used to read and cleanup the 3 text files and construct the n grams tables and save them to the database.
 3.  Stupid Backoff Frequency Calculation.R: Calculate the probabilities
 4.  Prediction Model Codes.R: Predict the next word.
+5.  ui.R: User Interface
+6.  server.R: Server Program - call the routine 'Predict' and displays the output
 
